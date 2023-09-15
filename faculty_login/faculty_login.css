@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    padding: 10rem 30rem;
+    background: url('../images/start.jpg');
+}
+
+.main_facultylogin {
+    background: white;
+    border: 2px solid rgb(0, 0, 105);
+    padding-bottom: 3rem;
+}
+
+.facultylogin_head{
+    padding: 2rem 4rem;
+    border-bottom: 2px solid rgb(0, 0, 105);
+}
+
+.facultylogin_head img {
+    width: 26rem;
+    height: 7rem;
+}
+
+.facultylogin_data {
+    padding: 2rem;
+}
+
+.facultylogin_data p {
+    color: rgb(0, 0, 105);
+    font-size: 1.2rem;
+    width: 8rem;
+}
+
+nav {
+    display: flex;
+}
+
+.facultylogin_data nav i {
+    margin-left: .5rem;
+    font-size: 1.8rem;
+}
+
+.facultylogin_data input {
+    width: 30rem;
+    font-size: 1.1rem;
+    padding: 0 1rem;
+    border: 2px solid rgb(74, 74, 74);
+}
+
+.facultylogin_data .role {
+  color: rgb(0, 0, 105);
+  font-size: 1.2rem;
+  width: 8rem;
+}
+
+.facultylogin_data .option {
+  width: 29rem;
+  font-size: 1.1rem;
+  padding: 0 1rem;
+  border: 2px solid rgb(74, 74, 74);
+}
+
+.main_facultylogin button {
+    width: 30rem;
+    padding: .6rem;
+    margin-left: 1.8rem;
+    margin-bottom: 1rem;
+    border-radius: 2rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: white;
+    background: #449D44;
+}
+
+.main_facultylogin .back_home {
+    float: right;
+}
+.main_facultylogin .back_home img {
+    padding: .5rem;
+    height: 3rem;
+}

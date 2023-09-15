@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Login</title>
+    <link rel="stylesheet" href="login.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <section class="main_login">
+        <a href="../index.html" class=" back_home"><img src="../images/home.png" alt=""></a>
+        <div class="login_head">
+            <img src="../images/student_login_logo.png" alt="student_login_logo">
+        </div>
+
+        <div class="login_data">
+            <p>
+                Email Id :
+                <nav>
+                    <input type="text" class="input"  placeholder="Please Enter Email Id" name="T1"  id="Email"><i class='bx bx-envelope'></i> 
+                </nav>
+            </p>
+            <br>
+            <p>
+                Passward :
+                <nav>
+                    <input type="password" class="input" placeholder ="Please Enter Password" name="T2"  id="Passwd"><i class='bx bx-show'></i>
+                </nav>
+            </p>   
+        </div>
+       
+
+        <button type="button">Log in</button>
+        <pre>Don't Have Account?<a href="#" onclick="document.getElementById('id11').style.display='block'" class="register" > Register Now</a></pre>
+
+      
+    </section>
+
+        <!------------------------------------------- registration modal -------------------------------------------------->
+        <div id="id11" class="modal11">
+  
+            <form class="modal-content11 animate11" action="/action_page.php" method="post">
+              <div class="imgcontainer11">
+                <span onclick="document.getElementById('id11').style.display='none'" class="close" title="Close Modal"></span>
+                <h1 class="avatar11">Registration Form</h1>
+              </div>
+          
+              <div class="container11">
+                <label for="fname"><b>FirstName</b></label>
+                <input type="text" placeholder="Enter your firstname" name="fname" required>
+
+                <label for="lname"><b>LastName</b></label>
+                <input type="text" placeholder="Enter your lastname" name="lname" required>
+
+                <label for=dateofbirth"><b>Date-of-Birth</b></label>
+                <input type="date"  name="dateofbirth" required>
+
+                <label for="lname"><b>Email Id</b></label>
+                <input type="email" placeholder="abc123@gmail.com" name="email" required>
+
+                <label for="psw11"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                <label for="phone"><b>Phone</b></label>
+                <input type="number" placeholder="Enter phone number" name="phone" required>
+
+                <label for="address"><b>Address</b></label>
+                <input type="text" placeholder="Enter your current address" name="address" required>
+
+                <label for="collage"><b>Collage</b></label>
+                <input type="text" placeholder="Enter your collagename" name="collage" required>
+
+                <label for="department"><b>Department</b></label>
+                <input type="text" placeholder="Enter your department" name="department" required>
+
+                <label for="enroll"><b>EnrollmentNumber</b></label>
+                <input type="text" placeholder="Enter your enrollment number " name="enroll" required>
+
+                <label for="gradu_year"><b>ExpectedGraduationYear</b></label>
+                <input type="number" placeholder="Enter your graduation year" name="gradu_year" required>
+
+                  
+                <button type="submit">Submit</button>
+                <label>
+                  <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+              </div>
+          
+              <div class="container11" style="background-color:#f1f1f1">
+                <button type="button" onclick="document.getElementById('id11').style.display='none'" class="cancelbtn11">Cancel</button>
+              </div>
+            </form>
+          </div>
+
+          <script src="login.js"></script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student_login</title>
+    <link rel="stylesheet" href="student_login.css">
+</head>
+<body>
+    <div class="main-outer">
+
+        <div id="mymodel1" class="model1">
+            <div class="model-content1">
+                <section id="data" class="hidden-data">
+                    
+                    <table>
+                        <tbody>
+                            <tr><td><b>Name  </b></td> <td><b>	VISHAL BAROT </b></td></tr>
+                            <tr><td><b>Designation  </b></td> <td> Assistant Professor </td></tr>
+                            <tr><td><b>Qualification  </b></td> <td> Phd Pursuing </td></tr>
+                            <tr><td><b>Experience  </b></td> 
+                                <td>
+                                    <table>
+                                        <tbody>
+                                            <tr>
+                                                <td><b>Teaching</b></td>
+                                                <td>8.1 Years</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr><td><b>Area  </b></td> <td> IOT, MACHINE LEARNING,AI </td></tr>
+                            <tr><td><b>Email </b></td> <td>vishal_ce@ldrp.ac.in</td></tr>
+                        </tbody>
+                    </table>
+
+                    <nav><a href="">Go back</a></nav>
+
+                </section>
+            </div>
+        </div> 
+
+        
+        <div class="main_head">
+            <h1>choose your mentor</h1>
+        </div>
+        <div class="cards">
+            <div class="services-box">
+                <img src="../images/vishal barot.jpg" alt="faculty_image">
+                <h3>VISHAL BAROT</h3>
+                <p>vishal_ce@ldrp.ac.in</p>
+                <a href="#" class="btn button1">Read More</a>
+                <br>
+                <button type="button" onclick="document.getElementById('id01').style.display='block'">choose mentor</button>
+            </div>
+    
+        </div>
+    </div>
+
+
+    <!------------------------------------------- registration modal -------------------------------------------------->
+    <div id="id01" class="modal">
+  
+        <form class="modal-content animate" action="/action_page.php" method="post">
+          <div class="imgcontainer">
+            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal"></span>
+            <img src="../images/vishal barot.jpg" alt="Avatar" class="avatar">
+          </div>
+      
+          <div class="container">
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+      
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+              
+            <button type="submit">Login</button>
+            <label>
+              <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+          </div>
+      
+          <div class="container" style="background-color:#f1f1f1">
+            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+          </div>
+        </form>
+      </div>
+
+    <script src="student_login.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
